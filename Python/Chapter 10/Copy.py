@@ -1,0 +1,6 @@
+fo=open("Devika.txt","r")
+data=fo.read()
+fo1=open("wipeout.txt","w")
+fo1.write(data)
+fo1.close()
+fo.close()
