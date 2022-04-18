@@ -1,0 +1,10 @@
+fo=open("Copy.txt","r")
+file1=fo.read()
+fo.close()
+fo1=open("Devika.txt","r")
+file2=fo1.read()
+fo1.close()
+print(file1)
+print(file2)
+if(file1==file2):
+    print("same")
