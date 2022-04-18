@@ -1,7 +1,0 @@
-Files using with keywordthis 
-is 
-an 
-example 
-for 
-writable 
-method 
