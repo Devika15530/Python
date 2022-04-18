@@ -6,7 +6,7 @@ for i in range(3):
     dict.update(d)#adding values to dictionary
 print(dict)
 for key, value in dict.items():#to itterate through dictionary to sum each students marks
-    if(((sum(value))/3)>40):
+    if(((sum(value))/3)>=40):
         x=((sum(value))/3)
         print("%s is pass by %d"%(key,x))
     else:

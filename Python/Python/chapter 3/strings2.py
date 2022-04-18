@@ -38,5 +38,5 @@ print(s.rjust(10,"-"))#----Python
 print(s.upper())
 s="    Python"
 print(s.strip())
-print(s.lstrip())
-print(s.rstrip())
+print(s.lstrip())#Python
+print(s.rstrip())#    Python

@@ -12,5 +12,5 @@ str="Good  Morning  Devika"
 print(str.find("  "))
 str=str.replace("  "," ")
 print(str)
-letter="Dear Harry,\n \tThis Python course is nice \n.Thanks!"
+letter="Dear Harry,\n \tThis Python course is nice \nThanks!"
 print(letter)

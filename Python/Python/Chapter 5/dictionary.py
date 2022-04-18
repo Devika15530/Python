@@ -32,9 +32,9 @@ print(d)
 print(dict['anotherdict'])
 
 #can access by using 
-print(d.get('marks'))
-print(d["marks"])
+print(d.get('marks'))#return value associated with key marks
+print(d["marks"])#return value associate with key marks
 #both will give the same o/p when the key is present in dictionary
 #when key is not present get will return none and next one will give error
-print(d.get('class'))
-print(d['class'])
+print(d.get('class'))#None
+print(d['class'])#KeyError: 'class'

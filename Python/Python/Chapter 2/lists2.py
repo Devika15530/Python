@@ -17,9 +17,9 @@ a.sort(reverse=TRUE)#sorting in descending order
 print(a)
 print(a.index(20))#first occuring index
 ########List comprehnsion##########
-a=[ele for ele in range(10)]
+a=[ele for ele in range(10)]#element itteration
 print(a)
-a=[ele*2 for ele in range(10)]
+a=[ele*2 for ele in range(10)]#square the element
 print(a)
-a=[ele for ele in range(10) if(ele%2==0)]
+a=[ele for ele in range(10) if(ele%2==0)]#only insert if the condition satisfies
 print(a)

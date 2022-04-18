@@ -29,5 +29,5 @@ print(s)
 
 #s.add([3,4,5])#TypeError: unhashable type: 'list'
 s.add((3,4,5))#can add tuples to sets 
-s.add({4:5})
+#s.add({4:5})#TypeError: unhashable type: 'dict'
 print(s)
